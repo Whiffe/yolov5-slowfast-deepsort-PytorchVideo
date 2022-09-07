@@ -86,14 +86,14 @@
    mkdir -p /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/
    cp /user-data/yolov5_file/ckpt.t7 /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/ckpt.t7
    ```
-5. download file(SLOWFAST_8x8_R50_DETECTION.pyth) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
+5. download file(SLOWFAST_8x8_R50_DETECTION.pyth) from [[slowfast_file]](https://share.weiyun.com/EUi4NvnM) to this folder:
    
-   我是将SLOWFAST_8x8_R50_DETECTION.pyth放在了：/user-data/yolov5_file/
+   我是将SLOWFAST_8x8_R50_DETECTION.pyth放在了：/user-data/slowfast_file/
    
    所以执行：
    ```
    mkdir -p /root/.cache/torch/hub/checkpoints/ 
-   cp /user-data/pyVideo/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
+   cp /user-data/slowfast_file/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
    ```
 
 6. download file(yolov5l6.pt) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
