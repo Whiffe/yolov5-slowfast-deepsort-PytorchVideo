@@ -28,6 +28,8 @@
 
 ## Installation
 
+使用AI平台：[https://cloud.videojj.com/auth/register?inviter=18452&activityChannel=student_invite](https://cloud.videojj.com/auth/register?inviter=18452&activityChannel=student_invite)
+
 0. environment 环境
    ```
    Pytorch 1.10.1
