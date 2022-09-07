@@ -94,7 +94,7 @@
    所以执行：
    ```
    mkdir -p /root/.cache/torch/hub/checkpoints/ 
-   cp /user-data/yolov5_file/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
+   cp /user-data/slowfast_file/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
    ```
 
 6. download file(yolov5l6.pt) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
@@ -103,7 +103,7 @@
    
    所以执行：
    ```
-   cp /user-data/slowfast_file/yolov5l6.pt /home/yolov5-slowfast-deepsort-PytorchVideo/yolov5l6.pt
+   cp /user-data/yolov5_file/yolov5l6.pt /home/yolov5-slowfast-deepsort-PytorchVideo/yolov5l6.pt
    ```
 
 7. test on your video:
@@ -112,7 +112,7 @@
    python yolo_slowfast.py --input {path to your video}
    ```
    
-   我将1.mp4存放在了/home/yolo_slowfast/demo/中
+   我将1.mp4存放在了/home/yolov5-slowfast-deepsort-PytorchVideo/demo/中
    
    所以执行：
    ```
