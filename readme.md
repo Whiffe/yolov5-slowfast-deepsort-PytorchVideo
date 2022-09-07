@@ -18,7 +18,7 @@
 > [yolo_slowfast](https://github.com/wufan-tb/yolo_slowfast)
 
 
-#### Demo comparison between original(<-left) and ours(->right).
+#### Demo comparison between original and ours.
 
 
 
