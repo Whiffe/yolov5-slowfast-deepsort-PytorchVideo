@@ -47,12 +47,14 @@
 
    使用github
    ```
+   cd /home
    git clone https://github.com/Whiffe/yolov5-slowfast-deepsort-PytorchVideo.git
    ```
    
    或者使用gitee
    
    ```
+   cd /home
    git clone https://gitee.com/YFwinston/yolov5-slowfast-deepsort-PytorchVideo.git
    ```
    
