@@ -20,13 +20,22 @@
 
 #### Demo comparison between original(<-left) and ours(->right).
 
+
+
+![image](https://img-blog.csdnimg.cn/c01edc763a744b9d8114b3973a4d0385.gif)
+![image](https://user-images.githubusercontent.com/33534050/188850328-13d68667-3602-4bd1-b658-28d66a84870f.png)
+
 <img src="./demo/ava_slowfast.gif" width="400" /><img src="./demo/yolov5+slowfast.gif" width="400" />
 
-#### Update Log:
-
-- 2022.01.24  optimize pre-process method(no need to extract video to image before processing), faster and cleaner.
 
 ## Installation
+
+0. environment 环境
+   ```
+   Pytorch 1.10.1
+   Python 3.8
+   Cuda 11.1
+   ```
 
 1. clone this repo:
 
@@ -35,10 +44,10 @@
    cd yolo_slowfast
    ```
 
-2. create a new python environment (optional):
+2. create a new python environment (optional 可选):
 
    ```
-   conda create -n {your_env_name} python=3.7.11
+   conda create -n {your_env_name} python=3.8.12
    conda activate {your_env_name}
    ```
 
