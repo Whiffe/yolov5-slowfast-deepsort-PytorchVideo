@@ -84,8 +84,8 @@
    所以执行：
    
    ```
-   mkdir -p /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/
-   cp /user-data/yolov5_file/ckpt.t7 /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/ckpt.t7
+   mkdir -p /home/yolov5-slowfast-deepsort-PytorchVideo/deep_sort/deep_sort/deep/checkpoint/
+   cp /user-data/yolov5_file/ckpt.t7 /home/yolov5-slowfast-deepsort-PytorchVideo/deep_sort/deep_sort/deep/checkpoint/ckpt.t7
    ```
 5. download file(SLOWFAST_8x8_R50_DETECTION.pyth) from [[slowfast_file]](https://share.weiyun.com/EUi4NvnM) to this folder:
    
@@ -103,7 +103,7 @@
    
    所以执行：
    ```
-   cp /user-data/pyVideo/yolov5l6.pt /home/yolo_slowfast/yolov5l6.pt
+   cp /user-data/pyVideo/yolov5l6.pt /home/yolov5-slowfast-deepsort-PytorchVideo/yolov5l6.pt
    ```
 
 7. test on your video:
@@ -116,7 +116,7 @@
    
    所以执行：
    ```
-   cd /home/yolo_slowfast
+   cd /home/yolov5-slowfast-deepsort-PytorchVideo
    python yolo_slowfast.py --input ./demo/1.mp4
    ```
 
