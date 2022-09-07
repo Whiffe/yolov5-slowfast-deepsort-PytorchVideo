@@ -48,14 +48,12 @@
    使用github
    ```
    git clone https://github.com/Whiffe/yolov5-slowfast-deepsort-PytorchVideo.git
-   cd yolo_slowfast
    ```
    
    或者使用gitee
    
    ```
    git clone https://gitee.com/YFwinston/yolov5-slowfast-deepsort-PytorchVideo.git
-   cd yolo_slowfast
    ```
    
 
@@ -69,6 +67,7 @@
 3. install requiments:
 
    ```
+   cd /home/yolo_slowfast
    pip install -r requirements2.txt
    ```
    
