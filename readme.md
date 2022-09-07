@@ -36,8 +36,14 @@
    Python 3.8
    Cuda 11.1
    ```
-
-1. clone this repo:
+1. 安装PytorchVideo:
+   ```
+   cd /home
+   git clone https://gitee.com/YFwinston/pytorchvideo.git
+   cd pytorchvideo
+   pip install -e .
+   ```
+3. clone this repo:
 
    使用github
    ```
