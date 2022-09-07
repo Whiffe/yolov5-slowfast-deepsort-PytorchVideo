@@ -78,7 +78,7 @@
    ./deep_sort/deep_sort/deep/checkpoint/
    ```
    
-   我是将ckpt.t7放在了：user-data/yolov5_file/
+   我是将ckpt.t7放在了：/user-data/yolov5_file/
    
    所以执行：
    
@@ -86,12 +86,37 @@
    mkdir -p /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/
    cp /user-data/yolov5_file/ckpt.t7 /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/ckpt.t7
    ```
+5. download file(SLOWFAST_8x8_R50_DETECTION.pyth) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
    
+   我是将SLOWFAST_8x8_R50_DETECTION.pyth放在了：/user-data/yolov5_file/
+   
+   所以执行：
+   ```
+   mkdir -p /root/.cache/torch/hub/checkpoints/ 
+   cp /user-data/pyVideo/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
+   ```
 
-5. test on your video:
+6. download file(yolov5l6.pt) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
+
+   我是将yolov5l6.pt放在了：/user-data/yolov5_file/
+   
+   所以执行：
+   ```
+   cp /user-data/pyVideo/yolov5l6.pt /home/yolo_slowfast/yolov5l6.pt
+   ```
+
+7. test on your video:
 
    ```
    python yolo_slowfast.py --input {path to your video}
+   ```
+   
+   我将1.mp4存放在了/home/yolo_slowfast/demo/中
+   
+   所以执行：
+   ```
+   cd /home/yolo_slowfast
+   python yolo_slowfast.py --input ./demo/1.mp4
    ```
 
    The first time execute this command may take some times to download the yolov5 code and it's weights file from torch.hub, keep your network connection.
