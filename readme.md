@@ -9,7 +9,12 @@
 - we use a tracker(deepsort) to allocate action labels to all objects(with same ids) in different frames
 - our processing speed reached 24.2 FPS at 30 inference batch size (on a single RTX 2080Ti GPU)
 
-> Relevant infomation: [FAIR/PytorchVideo](https://github.com/facebookresearch/pytorchvideo); [Ultralytics/Yolov5](https://github.com/ultralytics/yolov5)
+> 参考: [FAIR/PytorchVideo](https://github.com/facebookresearch/pytorchvideo); 
+> 
+> [Ultralytics/Yolov5](https://github.com/ultralytics/yolov5)
+> 
+> [yolo_slowfast](https://github.com/wufan-tb/yolo_slowfast)
+
 
 #### Demo comparison between original(<-left) and ours(->right).
 
