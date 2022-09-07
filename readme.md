@@ -1,4 +1,4 @@
-# Yolov5+SlowFast+deepsort: Realtime Action Detection（PytorchVideo）
+# Yolov5+SlowFast+deepsort: Action Detection（PytorchVideo）
  
 
 ### A realtime action detection frame work based on PytorchVideo. 
