@@ -94,7 +94,7 @@
    所以执行：
    ```
    mkdir -p /root/.cache/torch/hub/checkpoints/ 
-   cp /user-data/slowfast_file/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
+   cp /user-data/yolov5_file/SLOWFAST_8x8_R50_DETECTION.pyth /root/.cache/torch/hub/checkpoints/SLOWFAST_8x8_R50_DETECTION.pyth
    ```
 
 6. download file(yolov5l6.pt) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
