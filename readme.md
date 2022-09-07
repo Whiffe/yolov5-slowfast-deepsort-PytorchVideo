@@ -37,10 +37,19 @@
 
 1. clone this repo:
 
+   使用github
    ```
-   git clone https://github.com/wufan-tb/yolo_slowfast
+   git clone https://github.com/Whiffe/yolov5-slowfast-deepsort-PytorchVideo.git
    cd yolo_slowfast
    ```
+   
+   或者使用gitee
+   
+   ```
+   git clone https://gitee.com/YFwinston/yolov5-slowfast-deepsort-PytorchVideo.git
+   cd yolo_slowfast
+   ```
+   
 
 2. create a new python environment (optional 可选):
 
@@ -52,7 +61,7 @@
 3. install requiments:
 
    ```
-   pip install -r requirements.txt
+   pip install -r requirements2.txt
    ```
    
 4. download weights file(ckpt.t7) from [[deepsort]](https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6) to this folder:
