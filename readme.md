@@ -43,6 +43,13 @@
    cd pytorchvideo
    pip install -e .
    ```
+   
+   ```
+   apt update
+   apt install libgl1-mesa-glx
+
+   ```
+   
 3. clone this repo:
 
    使用github
@@ -108,6 +115,7 @@
 
 7. test on your video:
 
+   
    ```
    python yolo_slowfast.py --input {path to your video}
    ```
@@ -115,6 +123,13 @@
    我将1.mp4存放在了/home/yolov5-slowfast-deepsort-PytorchVideo/demo/中
    
    所以执行：
+   
+   
+   ```
+   cd /home/yolov5-slowfast-deepsort-PytorchVideo
+   mkdir demo
+   ```
+   
    ```
    cd /home/yolov5-slowfast-deepsort-PytorchVideo
    python yolo_slowfast.py --input ./demo/1.mp4
