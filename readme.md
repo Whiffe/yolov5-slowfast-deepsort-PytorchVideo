@@ -64,11 +64,21 @@
    pip install -r requirements2.txt
    ```
    
-4. download weights file(ckpt.t7) from [[deepsort]](https://drive.google.com/drive/folders/1xhG0kRH1EX5B9_Iz8gQJb7UNnn_riXi6) to this folder:
+4. download weights file(ckpt.t7) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
 
    ```
    ./deep_sort/deep_sort/deep/checkpoint/
    ```
+   
+   我是将ckpt.t7放在了：user-data/yolov5_file/
+   
+   所以执行：
+   
+   ```
+   mkdir -p /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/
+   cp /user-data/yolov5_file/ckpt.t7 /home/yolo_slowfast/deep_sort/deep_sort/deep/checkpoint/ckpt.t7
+   ```
+   
 
 5. test on your video:
 
