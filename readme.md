@@ -25,8 +25,6 @@
 ![image](https://img-blog.csdnimg.cn/92e00516f2984dfcb3ba4888fddde9dd.gif)
 ![image](https://img-blog.csdnimg.cn/c01edc763a744b9d8114b3973a4d0385.gif)
 
-<img src="./demo/ava_slowfast.gif" width="400" /><img src="./demo/yolov5+slowfast.gif" width="400" />
-
 
 ## Installation
 
