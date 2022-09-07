@@ -69,7 +69,7 @@
 3. install requiments:
 
    ```
-   cd /home/yolo_slowfast
+   cd /home/yolov5-slowfast-deepsort-PytorchVideo
    pip install -r requirements2.txt
    ```
    
