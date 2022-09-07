@@ -103,7 +103,7 @@
    
    所以执行：
    ```
-   cp /user-data/pyVideo/yolov5l6.pt /home/yolov5-slowfast-deepsort-PytorchVideo/yolov5l6.pt
+   cp /user-data/slowfast_file/yolov5l6.pt /home/yolov5-slowfast-deepsort-PytorchVideo/yolov5l6.pt
    ```
 
 7. test on your video:
