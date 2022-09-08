@@ -114,11 +114,11 @@
    ```
 7. download file(master.zip) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
 
-   我是将master.zip放在了：/user-data/yolov5_file/
+   我是将yolov5-master.zip放在了：/user-data/yolov5_file/
    
    所以执行：
    ```
-   cp /user-data/yolov5_file/master.zip /root/.cache/torch/hub/master.zip
+   cp /user-data/yolov5_file/yolov5-master.zip /root/.cache/torch/hub/yolov5-master.zip
    ```
    
 
