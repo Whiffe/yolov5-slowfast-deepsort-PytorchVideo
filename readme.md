@@ -118,7 +118,7 @@
    
    所以执行：
    ```
-   cp /user-data/yolov5_file/yolov5-master.zip /root/.cache/torch/hub/yolov5-master.zip
+   cp /user-data/yolov5_file/yolov5-master.zip /root/.cache/torch/hub/master.zip
    ```
    
 
