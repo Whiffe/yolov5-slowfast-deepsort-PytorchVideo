@@ -166,6 +166,10 @@ If you find our work useful, please cite as follow:
 
 ### Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/wufan-tb/yolo_slowfast.svg)](https://starchart.cc/wufan-tb/yolo_slowfast)
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Whiffe/yolov5-slowfast-deepsort-PytorchVideo.svg)](https://starchart.cc/Whiffe/yolov5-slowfast-deepsort-PytorchVideo)
+
 
 
