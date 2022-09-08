@@ -112,8 +112,17 @@
    ```
    cp /user-data/yolov5_file/yolov5l6.pt /home/yolov5-slowfast-deepsort-PytorchVideo/yolov5l6.pt
    ```
+7. download file(master.zip) from [[yolov5_file]](https://share.weiyun.com/xCgma1LG) to this folder:
 
-7. test on your video:
+   我是将master.zip放在了：/user-data/yolov5_file/
+   
+   所以执行：
+   ```
+   cp /user-data/yolov5_file/master.zip /root/.cache/torch/hub/master.zip
+   ```
+   
+
+8. test on your video:
 
    
    ```
